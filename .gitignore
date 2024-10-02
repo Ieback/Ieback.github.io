@@ -14,7 +14,7 @@ coverage/
 *.local
 *.swp
 *.swo
-
+template.html
 # OS
 Thumbs.db
 Desktop.ini
@@ -25,5 +25,4 @@ Desktop.ini
 # Windows
 *.lnk
 
-# Optional: ignore build output
 build/
