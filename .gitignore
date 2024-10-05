@@ -23,6 +23,7 @@ Desktop.ini
 
 # Windows
 *.lnk
+# minor edit
 
 build/
 
