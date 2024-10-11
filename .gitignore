@@ -15,6 +15,7 @@ coverage/
 /dist/
 *.local
 *.swp
+# minor edit
 *.swo
 template.html
 Thumbs.db
