@@ -8,7 +8,6 @@ yarn-error.log*
 # update
 *.log
 *.tsbuildinfo
-# update
 package-lock.json
 .idea/
 .vscode/
