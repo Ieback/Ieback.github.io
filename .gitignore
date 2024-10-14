@@ -21,7 +21,6 @@ template.html
 Thumbs.db
 Desktop.ini
 *.DS_Store
-
 *.lnk
 
 build/
