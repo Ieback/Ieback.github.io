@@ -24,6 +24,7 @@ Desktop.ini
 *.DS_Store
 *.lnk
 
+# minor edit
 build/
 # update
 # update
