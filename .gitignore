@@ -10,7 +10,6 @@ yarn-error.log*
 *.tsbuildinfo
 package-lock.json 
 .idea/
-# minor edit
 .vscode/
 coverage/
 /dist/
