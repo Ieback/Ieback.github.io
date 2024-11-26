@@ -18,6 +18,7 @@ coverage/
 *.swp
 *.swo 
 template.html
+
 # minor edit
 Thumbs.db
 Desktop.ini
