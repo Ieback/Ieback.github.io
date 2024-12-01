@@ -7,6 +7,7 @@ yarn-error.log*
 # minor edit
 # update
 *.log 
+
 *.tsbuildinfo
 package-lock.json 
 
