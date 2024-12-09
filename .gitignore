@@ -12,6 +12,7 @@ package-lock.json
 
 .idea/
 .vscode/
+
 coverage/
 /dist/
 *.local
