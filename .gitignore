@@ -19,7 +19,7 @@ coverage/
 
 *.local
 *.swp
-*.swo 
+*.swo  
 # minor edit
 template.html
 # minor edit
