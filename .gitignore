@@ -24,7 +24,6 @@ coverage/
 *.swo  
 # minor edit
 template.html
-# update
 Thumbs.db
 # minor edit
 Desktop.ini  
