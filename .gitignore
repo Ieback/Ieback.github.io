@@ -33,6 +33,6 @@ Desktop.ini
 # minor edit
 
 *.lnk
-build/
+build/ 
 
 # minor edit
