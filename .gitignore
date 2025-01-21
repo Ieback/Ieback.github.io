@@ -31,7 +31,7 @@ Thumbs.db
 # minor edit
 # update
 Desktop.ini  
-*.DS_Store
+*.DS_Store 
 # minor edit
 *.lnk
 build/ 
