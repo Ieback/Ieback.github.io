@@ -38,6 +38,5 @@ Thumbs.db
 # update
 Desktop.ini  
 *.DS_Store 
-# minor edit
 *.lnk
 build/ 
