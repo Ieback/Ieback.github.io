@@ -11,6 +11,7 @@ yarn-error.log*
 *.tsbuildinfo 
 # minor edit
 package-lock.json  
+# update
 .idea/  
 
 .vscode/ 
