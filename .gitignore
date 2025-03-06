@@ -1,6 +1,7 @@
 node_modules/ 
 .env* 
 .DS_Store
+# minor edit
 npm-debug.log*  
 # minor edit
 yarn-debug.log* 
