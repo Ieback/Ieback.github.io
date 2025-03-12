@@ -4,6 +4,7 @@ node_modules/
 .DS_Store
 # minor edit
 npm-debug.log*  
+# update
 # minor edit
 yarn-debug.log* 
 yarn-error.log* 
