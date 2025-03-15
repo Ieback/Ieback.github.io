@@ -21,7 +21,6 @@ package-lock.json
 coverage/
 /dist/
 
-
 # minor edit
 
 *.local
