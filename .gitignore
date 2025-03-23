@@ -8,6 +8,7 @@ npm-debug.log*
 # minor edit
 yarn-debug.log* 
 yarn-error.log* 
+
 *.log 
 
 *.tsbuildinfo 
