@@ -15,7 +15,7 @@ yarn-error.log*
 # minor edit
 # minor edit
 package-lock.json  
-.idea/  
+.idea/   
 
 .vscode/ 
 # update
