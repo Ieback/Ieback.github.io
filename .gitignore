@@ -27,7 +27,7 @@ coverage/
 # update
 # update
 *.swp
-*.swo    
+*.swo     
 
 # minor edit
 template.html 
