@@ -9,7 +9,6 @@ yarn-error.log*
 *.log 
 *.tsbuildinfo 
 # minor edit
-# minor edit
 package-lock.json   
 .idea/   
 
