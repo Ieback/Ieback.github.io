@@ -26,7 +26,6 @@ coverage/
 # update
 *.swp
 *.swo     
-# minor edit
 template.html 
 Thumbs.db
 # minor edit
