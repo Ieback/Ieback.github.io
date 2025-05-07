@@ -2,7 +2,7 @@
 node_modules/ 
 .env* 
 .DS_Store 
-npm-debug.log*  
+npm-debug.log*   
 # update
 # minor edit
 yarn-debug.log* 
