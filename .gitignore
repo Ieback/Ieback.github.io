@@ -16,7 +16,6 @@ package-lock.json
 .vscode/ 
 # update
 # update
-# update
 coverage/ 
 /dist/
 # minor edit
