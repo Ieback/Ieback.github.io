@@ -29,6 +29,7 @@ template.html
 Thumbs.db
 # minor edit
 # minor edit
+
 Desktop.ini  
 *.DS_Store 
 *.lnk
