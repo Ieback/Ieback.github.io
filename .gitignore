@@ -4,7 +4,6 @@ node_modules/
 .env* 
 .DS_Store 
 npm-debug.log*   
-# update
 yarn-debug.log* 
 yarn-error.log* 
 *.log 
