@@ -20,7 +20,7 @@ coverage/
 # minor edit
 *.local
 # update
-*.swp
+*.swp 
 *.swo      
 template.html 
 Thumbs.db
