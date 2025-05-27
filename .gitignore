@@ -19,6 +19,7 @@ coverage/
 # minor edit
 # minor edit
 *.local
+
 # update
 *.swp 
 *.swo      
