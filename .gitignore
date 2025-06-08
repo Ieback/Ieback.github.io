@@ -14,7 +14,7 @@ package-lock.json
 # update
 coverage/  
 # update
-/dist/
+/dist/ 
 # minor edit
 # minor edit
 *.local
