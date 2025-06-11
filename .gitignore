@@ -1,0 +1,30 @@
+node_modules/
+.env*
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+*.tsbuildinfo
+package-lock.json
+.idea/
+.vscode/
+coverage/
+/dist/
+/public/
+*.local
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Mac
+*.DS_Store
+
+# Windows
+*.lnk
+
+# Optional: ignore build output
+build/
