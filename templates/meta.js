@@ -9,7 +9,6 @@ const HTML_HEAD = ({ title } = {}) => `
   <link rel="stylesheet" href="/style.css" />
   <script src="/templates/header.js"></script>
   <script src="/templates/footer.js"></script>
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>`;
 
 
