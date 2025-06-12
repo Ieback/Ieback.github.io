@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap');
 
+body, .header, .section, .footer, .page-404, .header nav, .header nav.active, .header nav a, .header nav a:hover, .blog-title-link, .blog-logo, .mode-switch-btn {
+  transition: background 0.3s, color 0.3s, border-color 0.3s, filter 0.3s;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -42,7 +46,7 @@ body::before {
 .header nav {
   margin-top: 0;
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
   background: none;
   box-shadow: none;
   border-radius: 0;
@@ -58,6 +62,9 @@ body::before {
   border: 1px solid transparent;
   font-weight: 500;
   letter-spacing: 0.02em;
+}
+.header nav span {
+  padding: 0em 0.6em;
 }
 .header nav a:hover {
   color: #222;
@@ -122,13 +129,15 @@ body::before {
     min-width: 55px;
     max-width: 75px;
     text-align: center;
-    margin: 0.2em 0;
     font-size: 1.1rem;
     padding: 0.5em 1.2em;
     border-radius: 6px;
   }
+  .header nav span {
+    padding: 0.3em 0.6em;
+  }
   .header h1 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
   .blog-logo {
     height: 2.1rem;
@@ -342,4 +351,94 @@ div.post-date {
     line-height: 1.85;
     letter-spacing: 0.04em;
   }
+}
+
+/* 夜间模式样式 */
+body.night-mode {
+  background: #18191a;
+  color: #f5f6fa;
+}
+body.night-mode .header {
+  background: rgba(32, 33, 36, 0.97);
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.32);
+  border-bottom: 2px solid #333;
+}
+body.night-mode .header nav a {
+  color: #bbb;
+  background: none;
+  border: 1px solid transparent;
+}
+body.night-mode .header nav a:hover {
+  color: #fff;
+  background: #232323;
+  border: 1px solid #444;
+}
+body.night-mode .header nav.active {
+  background: #444;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.32);
+}
+body.night-mode .header nav a {
+  color: #eee;
+}
+body.night-mode .header nav a:hover {
+  background: #333;
+  color: #fff;
+  border: 1px solid #444;
+}
+body.night-mode .section,
+body.night-mode .section.active {
+  background: none;
+  color: #f5f6fa;
+}
+body.night-mode #post-list .post-title {
+  color: #f5f6fa;
+}
+body.night-mode #post-list li:hover {
+  background: #232323;
+}
+body.night-mode .footer {
+  color: #888;
+}
+body.night-mode .pagination a {
+  color: #bbb;
+  background: #232323;
+  border: 1px solid #444;
+}
+body.night-mode .pagination a:hover {
+  color: #fff;
+  background: #333;
+}
+body.night-mode .pagination .current {
+  color: #18191a;
+  background: #f5f6fa;
+  border: 1px solid #f5f6fa;
+}
+body.night-mode .page-404 {
+  background: none;
+  color: #f5f6fa;
+}
+body.night-mode .page-404 .back-home {
+  background: #232323;
+  color: #f5f6fa;
+}
+body.night-mode .page-404 .back-home:hover {
+  background: #333;
+}
+body.night-mode .section p, body.night-mode .section li, body.night-mode .section blockquote, body.night-mode .section pre, body.night-mode .section code {
+  color: #e0e0e0;
+}
+body.night-mode .section blockquote {
+  background: #232323;
+  color: #bdbdbd;
+  border-left: 3px solid #444;
+}
+body.night-mode .blog-title-link {
+  color: #f5f6fa;
+}
+body.night-mode .blog-logo {
+  filter: brightness(1.2) grayscale(0.2);
+}
+
+.mode-switch-btn {
+  cursor: pointer;
 }
