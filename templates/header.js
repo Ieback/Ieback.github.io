@@ -62,8 +62,16 @@ class Header extends HTMLElement {
         modeIcon.alt = '夜间模式';
       }
     }
-    // 读取本地存储
-    let night = localStorage.getItem('night-mode') === '1';
+    // 读取本地存储，默认白天模式
+    let night = false;
+    if (localStorage.getItem('night-mode') === '1') {
+      night = true;
+    } else if (localStorage.getItem('night-mode') === '0') {
+      night = false;
+    } else {
+      // 首次访问，默认白天
+      localStorage.setItem('night-mode', '0');
+    }
     setMode(night);
     modeSwitch.addEventListener('click', () => {
       night = !night;
