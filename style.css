@@ -165,6 +165,7 @@ body::before {
   cursor: pointer;
   transition: background 0.2s;
   border-radius: 6px;
+  margin-bottom: 1.3em;
 }
 #post-list li:last-child {
   border-bottom: none;
