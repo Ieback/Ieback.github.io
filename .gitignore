@@ -1,35 +1,47 @@
-# update
-# update
-node_modules/  
-.env* 
-.DS_Store     
-npm-debug.log*    
-yarn-debug.log*  
+node_modules/
+  
+.env*
+ 
+.DS_Store
+     
+npm-debug.log*
+    
+yarn-debug.log*
+  
 
-yarn-error.log* 
-*.log 
-*.tsbuildinfo 
-# minor edit
-package-lock.json   
-.idea/   
-.vscode/   
-# update
-coverage/  
-/dist/ 
-# minor edit
-# minor edit
+yarn-error.log*
+ 
+*.log
+ 
+*.tsbuildinfo
+ 
+package-lock.json
+   
+.idea/
+   
+.vscode/
+   
+coverage/
+  
+/dist/
+ 
 *.local
-# update
-*.swp 
+*.swp
+ 
 
-*.swo      
-template.html  
+*.swo
+      
+template.html
+  
 Thumbs.db
-# minor edit
-# minor edit
 
-Desktop.ini  
-*.DS_Store 
+Desktop.ini
+  
+*.DS_Store
+ 
 
 *.lnk
-build/  
+build/
+
+/drafts
+/scripts/igore-script.js
