@@ -19,8 +19,14 @@ function injectHeadToFile(filePath) {
     // 在 </head> 前插入分页脚本
     head = head.replace('</head>', '  <script src="/scripts/generate-pagination.js"></script>\n</head>');
   }
-  html = html.replace(/<head>[\s\S]*?<\/head>/i, head);
-  fs.writeFileSync(filePath, html, 'utf-8');
+  // 统一换行符为 \n
+  const newHtml = html.replace(/<head>[\s\S]*?<\/head>/i, head).replace(/\r\n?/g, '\n');
+  // 精确字节比对
+  const oldBuffer = Buffer.from(html.replace(/\r\n?/g, '\n'));
+  const newBuffer = Buffer.from(newHtml);
+  if (!oldBuffer.equals(newBuffer)) {
+    fs.writeFileSync(filePath, newHtml, 'utf-8');
+  }
 }
 
 // 处理 posts 目录下所有 html
