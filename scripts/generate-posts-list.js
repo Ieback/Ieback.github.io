@@ -87,7 +87,7 @@ batchReplaceLinks(SITEMAP_XML, renameMap);
 
 // 生成 sitemap.xml
 function generateSitemap(posts) {
-  const domain = 'https://your-domain.com'; // 请替换为你的实际域名
+  const domain = 'https://ieback.github.io'; // 请替换为你的实际域名
   let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
   xml += `  <url>\n    <loc>${domain}/</loc>\n    <priority>1.0</priority>\n  </url>\n`;
   xml += `  <url>\n    <loc>${domain}/posts.html</loc>\n    <priority>0.8</priority>\n  </url>\n`;
